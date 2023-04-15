@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'arcticfont';
+  src: url('../../../arcticfont.ttf') format('truetype');
+}
+
+.albuns-grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .albuns-header { 
+    font-family: 'arcticfont';
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .album-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .album-link {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .album-cover {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .album-title1{
+    color: #15223b;
+    margin-top: 60px;
+    margin-bottom: 10px;
+   font-size: 13px;
+  }
+  .album-title {
+    color: #15223b;
+    margin-top: 60px;
+    margin-bottom: 10px;
+   font-size: 15px;
+  }
+  
+ .videohome p{
+  font-size: 2rem;
+  
+ }
+  
+  
+  @media (max-width: 975px) {
+    .album-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .album-container {
+      grid-template-columns: 1fr;
+    }
+  }

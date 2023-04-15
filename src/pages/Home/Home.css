@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "arcticfont";
+  src: url(../../arcticfont.ttf) format("truetype");
+}
+
+.thecar {
+  display: block;
+  margin: 20px auto 0 auto;
+  padding-top: 0px;
+  width: 70vw;
+  min-width: 150px;
+}
+
+.thecar img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-width: 300px;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 50px;
+}
+
+.albunscover {
+  max-width: 800px;
+  margin: 0 auto 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.buttoncar {
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  width: 110px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #15223b;
+  background-color: #fff;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+.buttoncarvideos {
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  width: 200px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #15223b;
+  background-color: #fff;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+
+.buttoncar:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+.buttoncarvideos:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.titlearcticfont {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "arcticfont";
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.titlearcticfont2 {
+  font-size: 1rem;
+  font-family: "arcticfont";
+  text-align: center;
+  margin-top: 10px;
+}
+
+.thumb {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.videohome_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.videohome_container img {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media (max-width: 975px) {
+  .thecar img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1810px) {
+  .videohome_container img {
+    width: 420px;
+    height: 236px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .videohome_container img {
+    width: 350px;
+    height: 197px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .videohome_container img {
+    width: 420px;
+    height: 236px;
+  }
+}
+@media (max-width: 1120px) {
+  .thumb {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
