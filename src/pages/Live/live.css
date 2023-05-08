@@ -3,7 +3,7 @@
 }
 
 .container{
-    margin-top: 10px;
+margin-top: 50px;
 }
 .dates {
   margin-right: 90px;
@@ -12,32 +12,38 @@
 .local {
   margin-right: 100px;
 }
+.country{
 
-@media (max-width: 600px) {
+}
 
-  .container {
-    display: inline-flex;
-    width: 400px;
-    margin-top: 0;
-  }
+@media (max-width: 414px) {
+
   .dates {
-    margin-left: 80px;
-    width: 100px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
     font-size: 10px;
-    margin-right: 0px;
   }
 
   .local {
+    display: inline-block;
     width: 100px;
     font-size: 10px;
+    margin-left: 10px;
     margin-right: 10px;
   }
 
-  .country{    width: 140px;
-    font-size: 10px;}
+  .country{
+    display: inline-block;
+    width: 120px;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;}
 }
 
 @media (max-width: 1000px) {
     .livecover img{
        margin-top: 80px;
     }}
+    

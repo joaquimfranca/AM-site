@@ -77,7 +77,7 @@ export default function Live() {
 
 <div className="country">
   <p>
-    Linz, Austria<br /><br />
+    Linz, Austria<br/><br />
     Munich, Germany<br /><br />
     Hamburg, Germany<br /><br />
     Stockholm, Sweden<br /><br />
