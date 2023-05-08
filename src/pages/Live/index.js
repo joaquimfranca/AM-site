@@ -6,6 +6,7 @@ export default function Live() {
         <div className='livecover'><img src= {livecover}></img>
         </div>
         <div className='container'>
+          <div className='itens'>
       <div className='dates'>
         <p>
           24 Apr '23 <br /><br />
@@ -108,6 +109,7 @@ export default function Live() {
     Gdynia, Poland<br /><br />
     Werchter, Belgium
   </p>
+</div>
 </div>
 </div>
     

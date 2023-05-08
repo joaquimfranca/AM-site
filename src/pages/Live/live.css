@@ -1,23 +1,31 @@
-.livecover img{
-    width: 100%;
+.livecover img {
+  width: 100%;
 }
 
-.container{
-margin-top: 50px;
+.container {
+  margin-top: 200px;
 }
 .dates {
-  margin-right: 90px;
+  margin-right: 200px;
   font-weight: bold;
 }
 .local {
   margin-right: 100px;
 }
-.country{
 
+.itens {
+ 
+  width: 40%;
+  display: flex;
+  margin: 100px auto;
+}
+.container {
+  margin: 0 auto;
 }
 
-@media (max-width: 414px) {
-
+@media (max-width: 650px) {
+  .container {
+  }
   .dates {
     display: inline-block;
     margin-left: 10px;
@@ -34,16 +42,17 @@ margin-top: 50px;
     margin-right: 10px;
   }
 
-  .country{
+  .country {
     display: inline-block;
     width: 120px;
     font-size: 10px;
     margin-left: 10px;
-    margin-right: 10px;}
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 1000px) {
-    .livecover img{
-       margin-top: 80px;
-    }}
-    
+  .livecover img {
+    margin-top: 80px;
+  }
+}
