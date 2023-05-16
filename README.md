@@ -3,7 +3,7 @@
 This one is re-build of Arctic Monkeys site, one of my favorite bands.</br>
 Uma reconstrução do site de uma das minhas bandas preferidas: Arctic Monkeys.
 
-##  Deployment
+##  Deployment:
 <h1 style="font-size:20px;">https://am-site-xi.vercel.app/ </h1> </br>
 <img src="./public/thumb1.png" style="width: 600px; height: auto;">
 <img src="./public/thumb2.png" style="width: 600px; height: auto;">
